@@ -11,3 +11,20 @@
     display: table;
     clear: both;
 }
+
+/* Debug Rules */
+
+header{
+    height: 800px;
+    background-color: #FFF4EF;
+}
+
+main{
+    height: 2000px;
+    background-color: #F4F9FD;
+}
+
+footer{
+    height: 600px;
+    background-color: #32495B;
+}
