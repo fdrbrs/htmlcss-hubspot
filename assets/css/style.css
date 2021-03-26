@@ -171,12 +171,15 @@ footer{
 
 
 .jumbo_textbox a{
+    margin-bottom: 2rem;
+}
+
+.jumbo_btn{
     text-decoration: none;
     color: white;
     background-color: #FE775A;
     border-radius: 5px;
     padding: 20px 40px;
-    margin-bottom: 2rem;
 }
 
 
@@ -219,5 +222,34 @@ footer{
 .top_text p{
     line-height: 30px;
 }
+
+/* Free Hubspot Box */
+
+.free_box{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    height: 350px;
+    margin-top: 40px;
+}
+
+.left_side{
+    width: 30%;
+    text-align: center;
+    height: 100%;
+    float: left;
+}
+
+.left_side img{
+    width: 40%;
+    margin-top: 60px;
+    margin-bottom: 3rem;
+}
+
+.right_side{
+    width: 70%;
+    float: left;
+}
+
 
 /* Site Footer */
