@@ -136,7 +136,13 @@ footer{
 .jumbotron{
     height: 610px;
     background-color: #FFF4EF;
+    background-image: url(/hubspot/assets/img/jumbotron.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    
 }
+
+
 
 /* Divider Bar */
 
