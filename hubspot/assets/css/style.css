@@ -12,19 +12,114 @@
     clear: both;
 }
 
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Debug Rules */
 
 header{
-    height: 800px;
-    background-color: #FFF4EF;
+    height: 855px;
+    background-color: blue;
 }
 
 main{
-    height: 2000px;
+    height: 2210px;
     background-color: #F4F9FD;
 }
 
 footer{
-    height: 600px;
+    height: 620px;
     background-color: #32495B;
 }
+
+/* Utility Rules */
+
+.col_left, .col_right {
+    float: left;
+    width: 50%;
+}
+
+/* Site Header */
+
+/* Nav Bar Top */
+
+.top_nav{
+    height: 80px;
+    background-color: #F4F9FD;
+    border-bottom: 1px solid #33475B;
+    font-size: 12px;
+    line-height: 80px;
+}
+
+/* Nav Bar Top Left Menu */
+
+.lang_cont a{
+    text-decoration: none;
+    color: #33475B;
+}
+
+.lang_cont a:first-child{
+    padding-right: 1rem;
+    border-right: 1px solid black;
+}
+
+.lang_cont a:last-child{
+    padding-left: 1rem;
+}
+
+/* Nav Bar Top Right Menu */
+
+.nav_btns {
+    text-align: right;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.nav_btns a{
+    background-color: white;
+    color: #FE775A;
+    border: 1px solid #FE775A;
+}
+
+.nav_btns a:last-child{
+    background-color: #FE775A;
+    color: white;
+}
+
+.nav_btns i{
+    color: #00A4BD;
+}
+
+/* Nab Var Bottom */
+
+.bot_bar{
+    height: 80px;
+    background-color: white;
+}
+
+.jumbotron{
+    height: 610px;
+    background-color: #FFF4EF;
+}
+
+#divider{
+    height: 85px;
+    background-color: #AFEBE4;
+    border-top: 3px solid #33475B;
+    border-bottom: 3px solid #33475B;
+}
+
+/* Site Main */
+
+/* Site Footer */
