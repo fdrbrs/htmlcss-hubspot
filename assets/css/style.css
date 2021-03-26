@@ -108,7 +108,12 @@ footer{
 }
 
 .logo{
-    line-height: 90px;
+    line-height: 80px;
+}
+
+.logo img{
+    vertical-align: middle;
+    display: inline-block;
 }
 
 .drop_list{
@@ -136,10 +141,42 @@ footer{
 .jumbotron{
     height: 610px;
     background-color: #FFF4EF;
-    background-image: url(/hubspot/assets/img/jumbotron.png);
+    background-image: url(/assets/img/jumbotron.png);
     background-repeat: no-repeat;
     background-position-x: 100%;
     
+}
+
+
+/* Jumbtron Text */
+
+.jumbo_textbox{
+    margin-top: 80px;
+    color: #33475B;
+}
+
+.jumbo_textbox h1{
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.jumbo_textbox p{
+    margin-bottom: 60px;
+}
+
+.jumbo_textbox p:last-child{
+    margin-top: 60px;
+    font-size: 13px;
+}
+
+
+.jumbo_textbox a{
+    text-decoration: none;
+    color: white;
+    background-color: #FE775A;
+    border-radius: 5px;
+    padding: 20px 40px;
+    margin-bottom: 2rem;
 }
 
 
