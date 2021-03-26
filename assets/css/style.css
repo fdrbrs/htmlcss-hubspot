@@ -192,4 +192,32 @@ footer{
 
 /* Site Main */
 
+
+/* Promo Section */
+
+#promo_section {
+    color: #33475B;
+}
+/* Top Message */
+
+.top_message{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.top_image img{
+    width: 30%;
+    margin-top: 40px;
+}
+
+.top_text h2{
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.top_text p{
+    line-height: 30px;
+}
+
 /* Site Footer */
