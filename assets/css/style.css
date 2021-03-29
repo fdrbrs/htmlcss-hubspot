@@ -410,5 +410,74 @@ footer{
 
 /* Clients Section */
 
+#client_section{
+    background-color: white;
+}
+
+.client_left {
+    width: 40%;
+    float: left;
+    color: #33475B;
+}
+
+.client_right{
+    width: 60%;
+    float: left;
+}
+
+.client_top_left h2{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.client_top_left{
+    width: 40%;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+}
+
+.logo_tab{
+    margin-top: 3rem;
+}
+
+.logo_img{
+    float: left;
+    width: 150px;
+    height: 50px;
+}
+
+.logo_img>img{
+    width: 80%;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.client_bot_left h2{
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+.client_bot_left a{
+    margin: 3rem 0;
+    display: inline-block;
+}
+
+.client_bot_left p{
+    line-height: 30px;
+}
+
+.client_bot_left p:last-child{
+    font-size: 13px;
+}
+
+.woman_img img{
+    width: 50%;
+}
+
+.woman_img{
+    text-align: right;
+    margin-bottom: 2rem;
+}
 
 /* Site Footer */
