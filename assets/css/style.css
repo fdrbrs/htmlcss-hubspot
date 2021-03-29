@@ -304,4 +304,32 @@ footer{
 .free_textbox>ul>li:not(.free_textbox>ul>li:first-child){
     margin-left: 15px;
 }
+
+/* Three columns section */
+
+.hub_col {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    height: 655px;
+    margin-top: 40px;
+    float: left;
+    width: 30%;
+    text-align: center;
+
+}
+
+.middle_col {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.hub_col div:first-child{
+    height: 20%;
+}
+
+.col_image {
+    height: 100%;
+}
+
 /* Site Footer */
