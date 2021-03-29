@@ -330,6 +330,29 @@ footer{
 
 .col_image {
     height: 100%;
+    margin-top: 1rem;
 }
+
+.hub_col > h2, .hub_col > p, .hub_col > h3,.hub_col > ul{
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.hub_col hr{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    color: #899397;
+}
+
+.hub_col ul{
+    list-style: none;
+    text-align: left;
+    display: block;
+    margin-bottom: 4rem;
+}
+
+
 
 /* Site Footer */
