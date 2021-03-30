@@ -18,7 +18,8 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
+    font-weight: 400;
 }
 
 /* Debug Rules */
@@ -151,8 +152,7 @@ footer{
     background-color: #FFF4EF;
     background-image: url(/assets/img/jumbotron.png);
     background-repeat: no-repeat;
-    background-position-x: 100%;
-    
+    background-position-x: 100%;   
 }
 
 
@@ -281,11 +281,11 @@ footer{
     height: 2px;
     display: inline-block;
     vertical-align: middle;
-    width: 70%;
+    width: 60%;
 }
 .free_textbox h3{
     display: inline-block;
-    width: 28%;
+    width: 38%;
 }
 
 .free_textbox>ul>li{
@@ -334,7 +334,7 @@ footer{
 }
 
 .hub_col div:first-child{
-    height: 20%;
+    height: 15%;
 }
 
 .col_image {
@@ -351,7 +351,7 @@ footer{
 .hub_col hr{
     width: 80%;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 25%;
     color: #899397;
 }
 
@@ -379,6 +379,10 @@ footer{
     padding-top: 3rem;
     padding-bottom: 2rem;
 
+}
+
+.com_text p{
+    line-height: 30px;
 }
 
 .com_tab{
@@ -410,7 +414,10 @@ footer{
     font-size: 1.3rem;
     font-weight: 200;
     vertical-align: middle;
+}
 
+.tab_cel span{
+    font-size: 13px;
 }
 
 .cell_img{
@@ -435,15 +442,15 @@ footer{
 }
 
 .client_top_left h2{
-    font-size: 2.5rem;
-    margin-top: 2rem;
+    font-size: 3rem;
+    margin-top: 3rem;
     margin-bottom: 2rem;
 }
 
 .client_top_left{
     width: 40%;
-    margin-left: 4rem;
-    margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-bottom: 7rem;
 }
 
 .logo_tab{
@@ -451,15 +458,16 @@ footer{
 }
 
 .logo_img{
-    float: left;
-    width: 150px;
+    width: 20%;
     height: 50px;
+    margin-right: 20px;
+    display: inline-block;
 }
 
 .logo_img>img{
-    width: 80%;
+    /* width: 80%; */
+    max-width: 100%;
     vertical-align: middle;
-    line-height: 50px;
 }
 
 .client_bot_left h2{
@@ -478,6 +486,7 @@ footer{
 
 .client_bot_left p:last-child{
     font-size: 13px;
+    margin-bottom: 2rem;
 }
 
 .woman_img img{
@@ -513,7 +522,7 @@ footer{
 }
 
 .foot_col>ul>li{
-    line-height: 30px;
+    line-height: 35px;
 }
 
 .foot_col a{
@@ -532,7 +541,7 @@ footer{
 }
 
 .social_icons>i{
-    width: 15%;
+    padding-right: 1rem;
 }
 
 
@@ -549,7 +558,7 @@ footer{
 }
 
 .language_bar{
-    border-bottom: 1px solid #DADEE0;
+    border-bottom: 1px solid ;
     margin-top: 3rem;
 }
 
@@ -562,14 +571,15 @@ footer{
 .left_foot, .right_foot{
     float: left;
     width: 50%;
+    margin-bottom: 2rem;
 }
 
-.foot_logo img {
-    color: #DADEE0;
-}
-
-.foot_logo>div:last-child{
+.left_foot{
     color: white;
+}
+
+.left_foot div{
+    color: #DADEE0;
 }
 
 .right_foot {
@@ -579,4 +589,5 @@ footer{
 .right_foot>a{
     text-decoration: none;
     color: #DADEE0;
+    margin-left: 1rem;
 }
