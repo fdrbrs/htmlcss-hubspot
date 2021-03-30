@@ -24,17 +24,16 @@ body{
 /* Debug Rules */
 
 header{
-    height: 855px;
-    background-color: blue;
+    /* height: 855px; */
 }
 
 main{
-    height: 2910px;
+    /* height: 2910px; */
     background-color: #F4F9FD;
 }
 
 footer{
-    height: 620px;
+    /* height: 620px; */
     background-color: #32495B;
 }
 
@@ -54,6 +53,10 @@ footer{
     background-color: #F4F9FD;
     border-bottom: 1px solid #33475B;
     line-height: 80px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
 }
 
 /* Nav Bar Top Left Menu */
@@ -105,10 +108,13 @@ footer{
 .bot_bar{
     height: 80px;
     background-color: white;
+    margin-top: 80px;
 }
 
 .logo{
     line-height: 80px;
+    float: left;
+    width: 10%;
 }
 
 .logo img{
@@ -119,6 +125,8 @@ footer{
 .drop_list{
     text-align: right;
     line-height: 80px;
+    float: left;
+    width: 90%;
 }
 
 .drop_list>ul>li>a{
@@ -158,6 +166,7 @@ footer{
 .jumbo_textbox h1{
     font-size: 3rem;
     margin-bottom: 40px;
+    font-weight: 700;
 }
 
 .jumbo_textbox p{
