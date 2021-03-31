@@ -48,6 +48,11 @@ footer{
     background-color: #ffbcac;
 }
 
+.link:hover{
+    color: #007a8c;
+    text-decoration: underline;
+}
+
 /* Site Header */
 
 /* Nav Bar Top */
@@ -537,7 +542,12 @@ footer{
     line-height: 35px;
 }
 
-.foot_col a{
+.foot_col>ul>li>a{
+    text-decoration: none;
+    color: #DADEE0;
+}
+
+#supp_btn{
     text-decoration: none;
     background-color: #DADEE0;
     color: #32495B;
@@ -548,12 +558,27 @@ footer{
     display: inline-block;
 }
 
+#supp_btn:hover{
+    background-color: #007a8c;
+    color: #DADEE0;
+}
+
 .social_icons{
     margin-top: 1rem;
 }
 
-.social_icons>i{
+.social_icons>a{
     padding-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.social_icons>a{
+    text-decoration: none;
+    color: #DADEE0;
+}
+
+.social_icons>a:hover{
+    color: #007a8c;
 }
 
 
@@ -572,6 +597,11 @@ footer{
 .language_bar{
     border-bottom: 1px solid ;
     margin-top: 3rem;
+}
+
+.language_bar>ul>li>a{
+    text-decoration: none;
+    color: #DADEE0;
 }
 
 /* Bottom Bar */
