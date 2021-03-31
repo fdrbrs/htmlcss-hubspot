@@ -44,6 +44,10 @@ footer{
     width: 50%;
 }
 
+.jumbo_btn:hover{
+    background-color: #ffbcac;
+}
+
 /* Site Header */
 
 /* Nav Bar Top */
@@ -98,6 +102,11 @@ footer{
     background-color: #FE775A;
     color: white;
 }
+.nav_btns a:last-child:hover{
+    background-color: #ffbcac;
+    border: 1px solid #ffbcac;
+}
+
 
 .nav_btns i{
     color: #00A4BD;
@@ -149,7 +158,7 @@ footer{
 .jumbotron{
     height: 610px;
     background-color: #FFF4EF;
-    background-image: url(/assets/img/jumbotron.png);
+    background-image: url(../img/jumbotron.png);
     background-repeat: no-repeat;
     background-position-x: 100%;   
 }
@@ -345,6 +354,10 @@ footer{
     width: 80%;
     margin: auto;
     margin-top: 2rem;
+}
+
+.hub_col p{
+    line-height: 25px;
 }
 
 .hub_col hr{
