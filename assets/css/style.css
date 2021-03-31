@@ -374,12 +374,13 @@ footer{
 
 .hub_col p{
     line-height: 25px;
+    height: 18%;
 }
 
 .hub_col hr{
     width: 80%;
     margin: auto;
-    margin-top: 25%;
+    margin-top: 20%;
     color: #899397;
 }
 
