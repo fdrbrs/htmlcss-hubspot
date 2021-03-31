@@ -103,6 +103,11 @@ footer{
     border: 1px solid #FE775A;
 }
 
+.nav_btns a:hover{
+    background-color: #ffbcac;
+    border: 1px solid #ffbcac;
+    color: white;
+}
 .nav_btns a:last-child{
     background-color: #FE775A;
     color: white;
